@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - last digit  
+ * main - last digit
  * - A column of asterisks on the left side,
  * with beginning and ending almost-blank lines.
  *
@@ -19,7 +19,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 	lastdigit = n % 10;
 if (lastdigit == 0)
-	printf("lastdigit of %d is %d and is 0 \n", n, lastdigit);
+	printf("Last digit of %d is %d and is 0 \n", n, lastdigit);
 else if (lastdigit > 5)
 printf("Last digit of %d is %d and is great than 5 \n", n, lastdigit);
 else if (lastdigit < 6 && lastdigit != 0)
