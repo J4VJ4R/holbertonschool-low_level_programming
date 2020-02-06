@@ -3,9 +3,8 @@
 #include <time.h>
 
 /**
- * main - compares if a number is positive or negative
- *
- * Description - A column of asterisks on the left side,
+ * main - last digit  
+ * - A column of asterisks on the left side,
  * with beginning and ending almost-blank lines.
  *
  * Return: (0)
@@ -14,7 +13,7 @@
 int main(void)
 {
 int n;
-	int lastdigit;
+int lastdigit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
