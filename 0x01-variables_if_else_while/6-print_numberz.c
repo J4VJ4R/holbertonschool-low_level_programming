@@ -11,12 +11,13 @@
  */
 int main(void)
 {
-	int a = 0;
-while (a < 10)
+	int i = 0;
+while (i < 10)
 {
-printf("%d", a);
-a++;
+putchar(48 + i);
+i++;
+
 	}
-	putchar('\n');
+putchar('\n');
 	return (0);
 }
