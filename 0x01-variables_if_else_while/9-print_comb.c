@@ -18,8 +18,8 @@ putchar(48 + i);
 if (i < 9)
 {
 putchar(44);
-}
 putchar(32);
+}
 i++;
 }
 putchar('\n');
