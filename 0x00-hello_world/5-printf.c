@@ -1,14 +1,14 @@
-#include<stdio.h>
-/**
- * main -main block
- * Return:  0
- */
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
-printf("Size of a char: %d byte(s)\n", sizeof(char));
-printf("Size of an int:%d 4 byte(s)\n", sizeof(int));
-printf("Size of a long int:%d 8 byte(s)", sizeof(long int);
-printf("Size of a long long int:%d 8 byte(s)", sizeof(long long int);
-printf("Size of a float: 4 byte(s)", sizeof(float);
-return (0);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	return (0);
 }
