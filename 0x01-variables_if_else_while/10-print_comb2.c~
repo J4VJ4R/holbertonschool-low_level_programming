@@ -9,14 +9,21 @@
  *
  * Return: (0)
  */
-
+int i = 0;
+int a = 0;
 int main(void)
 {
-char letter = 'a';
-for (letter = 'a'; letter <= 'z'; letter++)
-{
-putchar(letter);
-}
-putchar('\n');
-return (0);
+
+	while (i < 9)
+	{
+		putchar(48 + i);
+		if (i < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		(i++ + 10);
+	}
+	putchar('\n');
+	return (0);
 }
