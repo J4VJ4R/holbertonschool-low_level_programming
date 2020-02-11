@@ -1,0 +1,18 @@
+#include "holberton.h"
+
+/**
+ * _isalpha - compare if c is lowercase or no
+ * @c:int checked
+ * Return: 0 on success
+ */
+
+int _isalpha(int c)
+{
+
+
+		if (c < 48)
+			return (1);
+		_putchar(43);
+
+	return (0);
+}
