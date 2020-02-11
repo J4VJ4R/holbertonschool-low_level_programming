@@ -1,0 +1,13 @@
+#include "holberton.h"
+
+/**
+ * print_sign - compare if c is lowercase or no
+ * @n:int checked
+ * Return: 0 on success
+ */
+
+int _abs(int n)
+{
+        _putchar(n);
+	return (0);
+}
