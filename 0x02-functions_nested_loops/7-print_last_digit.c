@@ -1,7 +1,7 @@
 #include "holberton.h"
-#include <stdlib.h>
+
 /**
- * _abs - show the absolute value of n
+ * print_last_digit - show the absolute value of n
  * @n:int checked
  * Return: 0 on success
  */
@@ -16,6 +16,5 @@ int print_last_digit(int n)
 		digit = digit * -1;
 	}
 	_putchar('0' + digit);
-	return (digit);         
-	       
+	return (digit);
 }
