@@ -27,13 +27,15 @@ void jack_bauer(void)
 				m2 = 0;
 				for (m2 = 0; m2 <= 9; m2++)
 				{
-	_putchar('0' + h1);
-	_putchar('0' + h2);
-	_putchar(':');
-	_putchar('0' + m1);
-	_putchar('0' + m2);
-	_putchar('\n');
+					_putchar('0' + h1);
+					_putchar('0' + h2);
+					_putchar(':');
+					_putchar('0' + m1);
+					_putchar('0' + m2);
+					_putchar('\n');
 				}
-			}}}
+			}
+		}
+	}
 
 }
