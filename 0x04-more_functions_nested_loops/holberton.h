@@ -6,7 +6,7 @@
  * Typedefs
  * Function prototypes
  */
-
+int mul(int a, int b);
 int _isdigit(int c);
 int _isupper(int c);
 #endif /* _SAMPLE_HEADER_H_ */
