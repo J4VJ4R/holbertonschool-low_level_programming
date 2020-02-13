@@ -1,0 +1,28 @@
+#include "holberton.h"
+#include <stdio.h>
+/**
+ * jack_bauer - show the absolute value of n
+ *
+ * Return: 0 on success
+ */
+void times_table(void)
+{
+
+	int t0;
+	int t2;
+	int com;
+
+	for(t2 = '0'; t2 <= '9'; t2++)
+	{
+	for (t0 = '0'; t0 <= '9'; t0++)
+	{
+		com = t2*t0;
+		_putchar(',');
+		_putchar(' ');
+		_putchar(' ');
+		_putchar(com + '0');
+	}
+	}
+	
+
+}
