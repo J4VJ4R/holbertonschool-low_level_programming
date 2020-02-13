@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * add - check the code for Holberton School students.
+ *@a: integer
+ *@b: integer
  * Return: Always 0.
  */
 
