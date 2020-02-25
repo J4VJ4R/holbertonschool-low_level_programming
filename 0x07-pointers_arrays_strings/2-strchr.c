@@ -14,19 +14,17 @@ char *_strchr(char *s, char c)
 
 	while (s[len] != '\0')
 		len++;
-	if ( len > 0 )
+	if (len > 0)
 	{
 	for (i = 0; i <= len; i++)
 	{
 		if (s[i] == c)
 		{
 			t = s + i;
-			break;
+		} else
+		{
+			t = 0;
 		}
-      	}
-	} else 
-		t = 0;
-
-
+	}
 	return (t);
 }
