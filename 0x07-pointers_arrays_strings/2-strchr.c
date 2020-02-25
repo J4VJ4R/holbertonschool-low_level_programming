@@ -23,9 +23,9 @@ char *_strchr(char *s, char c)
 			t = s + i;
 			break;
 		}
+      	}
+	} else 
 		t = 0;
-	}
-	}
 
 
 	return (t);
