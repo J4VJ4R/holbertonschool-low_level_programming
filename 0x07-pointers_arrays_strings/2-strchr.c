@@ -23,5 +23,9 @@ char *_strchr(char *s, char c)
 		}
 		t = 0;
 	}
+	for (i = 0; i > len; i++)
+	{
+		t = 0;
+	}
 	return (t);
 }
