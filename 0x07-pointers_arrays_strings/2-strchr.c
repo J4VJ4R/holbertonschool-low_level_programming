@@ -18,5 +18,6 @@ char *_strchr(char *s, char c)
 		}
 	}
 		s = 0;
+		return ('\0');
 		return (s);
 }
