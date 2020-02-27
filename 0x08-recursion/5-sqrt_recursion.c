@@ -1,4 +1,4 @@
-#include "holberton.h"./5-sqrt
+#include "holberton.h"
 
 /**
  * ed - this I use for other function
