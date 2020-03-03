@@ -17,17 +17,13 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-		if (k == 0)
+		if (k == NULL)
 		{
 			return (NULL);
 		}
-		else
-		{
-	for (i = 0; i < size; i++)
+		for (i = 0; i < size; i++)
 	{
 		k[i] = c;
 	}
 	return (k);
-		}
-		return (0);
 }
