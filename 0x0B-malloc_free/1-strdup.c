@@ -20,7 +20,7 @@
 		for (len = 0; str[len] != '\0' ; len++)
 		{
 		}
-		k = malloc(len * sizeof(char));
+		k = malloc(len + 1 * sizeof(char));
 		if (k == NULL)
 		{
 			return (NULL);
