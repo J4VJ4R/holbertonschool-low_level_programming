@@ -1,9 +1,9 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * *create_array - prints buffer in hexa
- * @size: the address of memory to print
- * @c: the size of the memory to print
+ * *str_concat - prints buffer in hexa
+ * @s1: the address of memory to print
+ * @s2: the size of the memory to print
  *
  * Return: Nothing.
  */
@@ -15,14 +15,6 @@ char *str_concat(char *s1, char *s2)
 	int size;
 	char *a;
 	int l;
-	char *ptr;
-
-	if (s1 == NULL || s2 == NULL)
-	{
-		ptr = malloc(1 * (sizeof(char)));
-			     ptr[0] = '\0';
-			     return (ptr);
-	}
 
 	for (i = 0; s1[i] != '\0'; i++)
 	{
@@ -32,7 +24,6 @@ char *str_concat(char *s1, char *s2)
 	{
 	}
 	size = i + j;
-	
 
 	a = malloc(size * sizeof(char));
 	l = 0;
