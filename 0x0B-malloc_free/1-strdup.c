@@ -21,10 +21,6 @@
 		{
 		}
 		k = malloc(len * sizeof(char));
-		if (len == 0)
-		{
-			return (NULL);
-		}
 		if (k == NULL)
 		{
 			return (NULL);
