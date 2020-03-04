@@ -9,12 +9,8 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int i;
-	int j;
-	int k;
-	int size;
+	unsigned int i, j, k, size, l;
 	char *a;
-	int l;
 
 	if (s1 == NULL)
 		i = 0;
@@ -36,14 +32,16 @@ char *str_concat(char *s1, char *s2)
 	if (a == NULL)
 		return (NULL);
 	l = 0;
+	k = 0;
 	while (k < i)
 	{
 		a[k] = s1[k];
 		k++;
 	}
-	while (k < size)
+	k = 0;
+	while (k < j)
 	{
-		a[k] = s2[l];
+		a[k + i] = s2[l];
 		k++;
 		l++;
 	}
