@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "dog.h"
 #include <stdlib.h>
-#include "holberton.h"
+#include "dog.h"
+char *_strdup(char *input);
 /**
  * new_dog - creates a new dog
  * @name: name of the new dog
