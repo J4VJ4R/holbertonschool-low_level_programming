@@ -33,10 +33,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	return (dog);
 }
-#include "holberton.h"
-#include <stdlib.h>
-
-
 /**
  * _strdup - copies a given string into a newly allocated space in memory
  * @str: string to be copied
