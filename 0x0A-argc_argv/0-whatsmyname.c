@@ -1,8 +1,9 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * _puts_recursion - check the code for Holberton School students.
- * @s: char
+ * main - check the code for Holberton School students.
+ * @argc: int
+ * @argv: array
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
