@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "function_pointers.h"
+
+/**
+ * array_iterator - prints an integer
+ * @array: the integer to print
+ * @size: void
+ * @action: action
+ * Return: Nothing.
+ */
+void array_iterator(int *array, size_t size, void (*action)(int))
+{
+	int i = 0;
+
+	if (action == NULL || array == NULL)
+		return;
+
+	while (size--)
+		action(array[i++]);
+}
