@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 #include <stdarg.h>
-
+#include <stdlib.h>
 /**
  * fn_char - check the code for Holberton School students.
  *
@@ -24,7 +24,7 @@ void fn_integer(va_list data)
 }
 
 /**
- * main - check the code for Holberton School students.
+ * fn_float - check the code for Holberton School students.
  * @data: this a data
  */
 void fn_float(va_list data)
@@ -39,7 +39,13 @@ void fn_float(va_list data)
  */
 void fn_string(va_list data)
 {
-	printf("%s", va_arg(data, char*));
+	char *d = va_arg(data, char*);
+
+	if (d == NULL)
+	{
+		d = "(nil)";
+	}
+	printf("%s", d);
 }
 
 

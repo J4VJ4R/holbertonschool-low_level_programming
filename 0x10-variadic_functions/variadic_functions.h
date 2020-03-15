@@ -1,6 +1,8 @@
 #ifndef VAR_F
 #define VAR_F
 #include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
 typedef struct formats
 {
 	char *format_module;
