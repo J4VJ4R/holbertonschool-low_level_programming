@@ -12,9 +12,9 @@ unsigned long i = 0;
 
 while (h != NULL)
 {
-if (h->str != NULL)
+if (h->str == NULL)
 {
-printf("[%d] %s\n", h->len, "(nil)");
+printf("[0] %s\n", "(nil)");
 }
 else
 {
