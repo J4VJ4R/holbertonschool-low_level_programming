@@ -25,4 +25,5 @@ struct listint_s *next;/** Apuntador para saber si ya no hay nada
  */
 size_t print_listint(const listint_t *h); /* función para imprimir la lista */
 size_t listint_len(const listint_t *h);
+listint_t *add_nodeint(listint_t **head, const int n);
 #endif
