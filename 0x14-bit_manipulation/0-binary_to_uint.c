@@ -7,34 +7,33 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-   int index = 0;
-   unsigned int acumulatorBits = 0;
-    
-   if (b == NULL)
-        return (0);
+int index = 0;
+unsigned int acumulatorBits = 0;
+if (b == NULL)
+return (0);
     /**
      * this is only to check that there is some data in b
      */
-    while (b[index]) /*significa que exist some in b*/
-    {
+while (b[index]) /*significa que exist some in b*/
+{
        /**
      * we validate that b in your index is same to 1
      */
-    if (b[index] == '1')
-    {
+if (b[index] == '1')
+{
      /**
       * we acumulate the bits
       */
-     acumulatorBits = acumulatorBits << 1;
-     acumulatorBits = acumulatorBits | 1;   
-    }
-    else if (b[index] == '0')
-        acumulatorBits = acumulatorBits << 1;
-    else
-    {
-        return (0);
-    }
-    index++;
-    }
-    return (acumulatorBits);
+acumulatorBits = acumulatorBits << 1;
+acumulatorBits = acumulatorBits | 1;
+}
+else if (b[index] == '0')
+acumulatorBits = acumulatorBits << 1;
+else
+{
+return (0);
+}
+index++;
+}
+return (acumulatorBits);
 }
