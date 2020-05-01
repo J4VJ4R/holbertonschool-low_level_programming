@@ -26,7 +26,7 @@ int main(){
 //lista doble ----------- null <- 13 -> <- 16 -> <- 2 -> <- 9 -> NULL
 void insertarNodo(){
     nodo* nuevo = (nodo*)malloc(sizeof(nodo));
-    print(" ingresa el dato que contendrá el nuevo nodo: ");
+    printf(" ingresa el dato que contendrá el nuevo nodo: ");
     scanf("%d", &nuevo->dato);
 
     if(primero == NULL){
