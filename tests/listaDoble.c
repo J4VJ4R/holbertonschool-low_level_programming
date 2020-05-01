@@ -16,6 +16,12 @@ void insertarNodo();
 void desplegarListaPU();
 void desplegarListaUP();
 int main(){
+    insertarNodo();
+    insertarNodo();
+    insertarNodo();
+    insertarNodo();
+    desplegarListaPU();
+    desplegarListaUP();
     return (0);
 }
 
