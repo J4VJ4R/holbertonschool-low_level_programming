@@ -38,19 +38,19 @@ void insertarNodo(){
         ultimo->siguiente = nuevo;
         nuevo->siguiente = NULL;
         nuevo->atras = ultimo;
-        ultimo = nuevo
+        ultimo = nuevo;
     }
 
-    printf("\n Nodo ingresado con éxito\n\n")
+    printf("\n Nodo ingresado con éxito\n\n");
 }
 
 void desplegarListaPU(){
-    nodo* actual = (nodo)malloc(sizeof(nodo));
+    nodo* actual = (nodo*)malloc(sizeof(nodo));
     actual = primero;
     if(primero != NULL){
         while (actual != NULL)
         {
-            printf("\n %d", actual->dato)
+            printf("\n %d", actual->dato);
             actual = actual->siguiente;
         }
         
@@ -60,12 +60,12 @@ void desplegarListaPU(){
 }
 
 void desplegarListaUP(){
-    nodo* actual = (nodo)malloc(sizeof(nodo));
+    nodo* actual = (nodo*)malloc(sizeof(nodo));
     actual = ultimo;
     if(primero != NULL){
         while (actual != NULL)
         {
-            printf("\n %d", actual->dato)
+            printf("\n %d", actual->dato);
             actual = actual->atras;
         }
         
