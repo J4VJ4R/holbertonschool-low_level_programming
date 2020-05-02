@@ -3,7 +3,7 @@
  * add_dnodeint - a function to show the number of elements
  * @head: variable of the elements inside
  * @n: cuantiti of the element
- * return: a temp
+ * Return: a temp
  */
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
