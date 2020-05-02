@@ -1,7 +1,9 @@
 #include "lists.h"
 /**
- * 
- * 
+ * add_dnodeint_end - is a function to add a new node at the end
+ * @head: where give a new space
+ * @head: where enter a variable type int
+ * Return: a new node at the end
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
