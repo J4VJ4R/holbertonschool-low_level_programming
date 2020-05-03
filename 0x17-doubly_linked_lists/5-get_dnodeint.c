@@ -7,12 +7,13 @@
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-    if(head == NULL)
-        return;
+    int i;
+
+    
     for (i = 0; head; i++)
     {
         if (i == index){
-            printf("%d". nodo->n);
+            printf("%d", nodo->n);
         }
     }
     
