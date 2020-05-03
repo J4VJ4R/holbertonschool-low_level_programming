@@ -5,7 +5,7 @@
  * @index: is a variable where inside the number of space or of
  * element
  */
-*get_dnodeint_at_index(dlistint_t *head, unsigned int index)
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
     dlistint_t *nodo;
     nodo = *head;
