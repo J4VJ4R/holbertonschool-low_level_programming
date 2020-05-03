@@ -7,9 +7,7 @@
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-    dlistint_t *nodo;
-    nodo = *head;
-    if(nodo == NULL)
+    if(head == NULL)
         return;
     for (i = 0; head; i++)
     {
