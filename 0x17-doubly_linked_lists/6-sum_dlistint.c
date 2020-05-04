@@ -8,13 +8,14 @@
  */
 int sum_dlistint(dlistint_t *head)
 {
-    int count;
+    int count = *head;
     if (head == NULL)
         return (0);
     while (head != NULL)
     {
+        //count = *head + *head;
         head = head->next;
-        count++;
+        count = count + *head;
     }
     return (count);
     
