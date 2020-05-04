@@ -36,10 +36,6 @@ para crear una librería estática de nombre libpropia.a serían los siguientes:
 >ranlib libpropia.a =⇒ Ya hemos creado nuestra librería estática.
 Para comprobar que todo ha ido correctamente puede ejecutarse el comando
 > nm -s libpropia.a
-que nos debería listar todas las funciones incluidas en la librería. Ahora, para
-poder usar las funciones de nuestra librería, bastaría con crear el fichero con
-todas las cabeceras de las funciones de la librería, por ejemplo nuestras.h, e
-incluirlo mediante la directiva #include en el fichero fuente donde se van a
-usar. Una vez hecho esto, cuando compilemos nuestro programa, basta añadir
-la opción -lpropia y -Ldirectorio para indicar su ubicación si ésta no es la
-estándar.
+que nos debería listar todas las funciones incluidas en la librería. 
+Ahora, para poder usar las funciones de nuestra librería, bastaría con crear el fichero con todas las cabeceras de las funciones de la librería, por ejemplo nuestras.h, e incluirlo mediante la directiva #include en el fichero fuente donde se van a
+usar. Una vez hecho esto, cuando compilemos nuestro programa, basta añadir la opción -lpropia y -Ldirectorio para indicar su ubicación si ésta no es la estándar.
