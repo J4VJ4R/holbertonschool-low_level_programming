@@ -1,10 +1,21 @@
 #include <stdio.h>
+#include "holberton.h"
+
 /**
- * Description: main - Prints out a string to stdout.
- * Return: 0 if success.
+ * _puts - prints a string followed by a new line
+ * @str: string to print
+ * Return: nothing;
  */
-int main(void)
+
+void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	int i;
+	char letter;
+
+	for (i = 0; str[i] != 0; i++)
+	{
+		letter = str[i];
+		_putchar(letter);
+	}
+	_putchar('\n');
 }
