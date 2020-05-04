@@ -2,12 +2,12 @@
 /**
  * get_dnodeint_at_index - is a function to add
  * a new node at the end
- * @head: where give a new space
+ * @head: where give a new space fo a nodo
  * @index: is a variable where inside the number of space or of
  * element
- * Return: the head
+ * Return: the head one
  */
-dlistint_t *get_dnodeint_at_index(dlistint_t(*head, unsigned int index)
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	if (head == NULL)
 		return (NULL);
