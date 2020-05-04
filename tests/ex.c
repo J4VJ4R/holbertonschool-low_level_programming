@@ -1,18 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ex.h>
 
-void holamundo(){
-    printf("hola holberton\n");
-}
-
-int suma(int a, int b){
-    return (a + b);
-}
-
-int main(void)
-{
-   holamundo();
-   int val = suma(1, 2);
-   printf("la suma es: %d", val);
-    return 0;
+void main(void){
+  int val;
+  holamundo();
+  val = suma(5, 10);
+  printf("este es el valor de tu corazón: %d\n", val);
 }
