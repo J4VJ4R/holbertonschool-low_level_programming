@@ -8,8 +8,9 @@
  */
 int sum_dlistint(dlistint_t *head)
 {
-	dlistint_t *list = head;
 	int count = 0;
+
+	dlistint_t *list = head;
 	
 	if (head == NULL)
 		return (0);
