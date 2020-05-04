@@ -8,13 +8,15 @@
  */
 int sum_dlistint(dlistint_t *head)
 {
-    int count = head->n;
+    dlistint_t *list = head;
+    int count = 0;
     if (head == NULL)
         return (0);
-    while (head != NULL)
+    while (list != NULL)
     {
-        head = head->next;
-        count = count + head->n;
+        count = count += list->n;
+        list = list->next;
+        
     }
     return (count);
     
