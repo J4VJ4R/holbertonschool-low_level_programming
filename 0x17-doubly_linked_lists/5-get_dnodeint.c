@@ -4,17 +4,20 @@
  * @head: where give a new space
  * @index: is a variable where inside the number of space or of
  * element
+ * Return: the head
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
     int i;
-
     
-    for (i = 0; head; i++)
+    if(head == NULL)
+        return (NULL);
+    while (index != 0 && head != NULL)
     {
-        if (i == index){
-            printf("%d", nodo->n);
-        }
+        head = head->next;
+        index = index - 1;
     }
-    
+    if (head == NULL)
+        return (NULL);
+    return (head);
 }
