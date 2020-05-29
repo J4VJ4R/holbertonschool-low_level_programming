@@ -1,9 +1,8 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_get - this is a hash table
+ * hash_table_print - this is a hash table
  * @ht: ht
- * @key: key
  * Return: index of hash generated
  */
 void hash_table_print(const hash_table_t *ht)
