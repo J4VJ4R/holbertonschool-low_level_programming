@@ -3,7 +3,7 @@
 /**
  * hash_table_print - this is a hash table
  * @ht: ht
- * Return: index of hash generated
+ * Return: void function no return
  */
 void hash_table_print(const hash_table_t *ht)
 {
