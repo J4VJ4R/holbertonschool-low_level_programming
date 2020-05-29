@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * key_index - this is a hash table
+ * hash_table_set - this is a hash table
  * @ht: ht
  * @key: key
  * @value: value
