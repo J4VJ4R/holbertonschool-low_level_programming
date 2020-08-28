@@ -10,8 +10,8 @@ Problems in constraint satisfaction, such as:
 The map coloring problem
 Filling in a sudoku or crossword puzzle
 
-more in: [pip](https://en.wikipedia.org/wiki/Search_algorithm)
-         [pip](https://intranet.hbtn.io/rltoken/pPScxisIQ0eOPBPXkjcEmg)
+more in: [Search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
+         [more algorithms here](https://intranet.hbtn.io/rltoken/pPScxisIQ0eOPBPXkjcEmg)
 
 ## What is a search algorithm
 
