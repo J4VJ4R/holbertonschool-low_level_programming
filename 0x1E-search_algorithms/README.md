@@ -13,6 +13,8 @@ Filling in a sudoku or crossword puzzle
 more in: [Search algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
          [more algorithms here](https://intranet.hbtn.io/rltoken/pPScxisIQ0eOPBPXkjcEmg)
 
+## OBJETIVES
+
 ## What is a search algorithm
 
 ```bash

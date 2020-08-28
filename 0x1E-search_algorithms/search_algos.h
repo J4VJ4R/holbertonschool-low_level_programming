@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <math.h>
 /**
- * struct listint_s - singly linked list
+ * struct listint_s - singly linked lists
  *
  * @n: Integer
  * @index: Index of the node in the list
